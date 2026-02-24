@@ -1,19 +1,17 @@
-## Olá! Eu sou o Rafael Ehlert - Futuro Desenvolvedor Web FullStack
+## Olá! Eu sou o Rafael Ehlert - Desenvolvedor Junior C#
 
-- 🔭 Buscando uma vaga como Desenvolvedor Web
-- 🌱 Estudos com foco em Java Web, com conhecimentos em HTML, CSS e JavaScript
-- Comecando estudos no framework Anguar
+- 🔭 Trabalhando atualmente como Desenvolvedor Terceirizado na Myrp - Inventti
+- 🌱 Foco atualmente é em evoluir no desenvolvimento de softwares utilizando .Net/C#
+- Aperfeiçoando conhecimentos em microsservices e testes unitários
 
 <div>
-    <a href="https://github.com/codehunter6667">
-    <img height="155em" src="https://github-readme-stats.vercel.app/api?username=codehunter6667&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-      <img height="155em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=codehunter6667&layout=compact&langs_count=10&theme=dracula"/>
+    <a href="https://github.com/rafaeleh96">
+    <img height="155em" src="https://github-readme-stats.vercel.app/api?username=rafaeleh96&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
+      <img height="155em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rafaeleh96&layout=compact&langs_count=10&theme=dracula"/>
 </div>
 
 <div styl="display: inline_block"><br>
     <img allign="center" alt="Rafael csharp" height="30" width= "40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" />
-<img allign="center" alt="Rafael java" height="40" width= "50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" />
-<img allign="center" alt="Rafael spring" height="40" width= "50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg" />
 <img allign="center" alt="Rafael mysql" height="40" width= "50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" />
 <img allign="center" alt="Rafael postgres" height="40" width= "50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" />
 <img allign="center" alt="Rafael sqlserver" height="40" width= "50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain-wordmark.svg" />
