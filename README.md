@@ -5,10 +5,7 @@
 - ⚡ Aperfeiçoando conhecimentos em microservices e testes unitários
 
 <div align="center">
-  <a href="https://github.com/RafaelEh96">
-    <img height="180em" src="https://github-readme-stats-git-master-anuraghazra.vercel.app/api?username=RafaelEh96&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" />
-    <img height="180em" src="https://github-readme-stats-git-master-anuraghazra.vercel.app/api/top-langs/?username=RafaelEh96&layout=compact&langs_count=10&theme=dracula" />
-  </a>
+  <img src="github-metrics.svg" alt="GitHub Metrics" width="100%">
 </div>
 
 <br>
