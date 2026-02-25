@@ -5,9 +5,9 @@
 - Aperfeiçoando conhecimentos em microsservices e testes unitários
 
 <div>
-    <a href="https://github.com/rafaeleh96">
-    <img height="155em" src="https://github-readme-stats.vercel.app/api?username=rafaeleh96&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-      <img height="155em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rafaeleh96&layout=compact&langs_count=10&theme=dracula"/>
+    <a href="https://github.com/RafaelEh96">
+    <img height="155em" src="https://github-readme-stats.vercel.app/api?username=RafaelEh96&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
+      <img height="155em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RafaelEh96&layout=compact&langs_count=10&theme=dracula"/>
 </div>
 
 <div styl="display: inline_block"><br>
