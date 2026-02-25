@@ -1,11 +1,19 @@
 name: Metrics
 on:
-  schedule: [{cron: "0 0 * * *"}] # Atualiza todo dia à meia-noite
-  workflow_dispatch: # Permite rodar manualmente
-push: {branches: ["master", "main"]}
+  # Agenda para rodar todo dia à meia-noite
+  schedule:
+    - cron: "0 0 * * *"
+  # Permite que você execute manualmente na aba Actions
+  workflow_dispatch:
+  # Roda sempre que você fizer um push na main ou master
+  push:
+    branches: ["master", "main"]
+
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: lowlighter/metrics@latest
         with:
