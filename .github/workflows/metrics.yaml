@@ -1,11 +1,8 @@
 name: Metrics
 on:
-  # Agenda para rodar todo dia à meia-noite
   schedule:
     - cron: "0 0 * * *"
-  # Permite que você execute manualmente na aba Actions
   workflow_dispatch:
-  # Roda sempre que você fizer um push na main ou master
   push:
     branches: ["master", "main"]
 
@@ -15,19 +12,26 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@3.34.0
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: RafaelEh96
           template: classic
           base: header, community, repositories, metadata
           config_timezone: America/Sao_Paulo
+
           plugin_languages: yes
           plugin_languages_details: percentage
           plugin_languages_sections: most-used
+
           plugin_habits: yes
-          plugin_habits_charts: yes
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_charts_type: classic 
+
           plugin_achievements: yes
           plugin_achievements_threshold: B
           plugin_achievements_secrets: yes
+          plugin_achievements_limit: 0 
+
           plugin_lines: yes
