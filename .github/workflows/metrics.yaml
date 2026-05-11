@@ -1,3 +1,5 @@
+name: Metrics
+
 on:
   schedule:
     - cron: "0 0 * * *"
@@ -11,9 +13,30 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest 
+      - name: Validate METRICS_TOKEN
+        env:
+          METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        run: |
+          if [ -z "$METRICS_TOKEN" ]; then
+            echo "::error::Configure o secret METRICS_TOKEN com um GitHub Personal Access Token valido."
+            exit 1
+          fi
+
+          status=$(curl -sS -o /dev/null -w "%{http_code}" \
+            -H "Authorization: Bearer $METRICS_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/user)
+
+          if [ "$status" != "200" ]; then
+            echo "::error::O secret METRICS_TOKEN esta invalido, expirado ou revogado. Gere um novo token e atualize o secret."
+            exit 1
+          fi
+
+      - uses: lowlighter/metrics@latest
         with:
+          filename: github-metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ github.token }}
           user: RafaelEh96
           template: classic
           base: header, community, repositories, metadata
